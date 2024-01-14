@@ -13,3 +13,16 @@
     margin: 0.5em;
     height: 100px;
 }
+
+#navbar{
+    display: block;
+    position: fixed;
+    top: 0px;
+    height: 3em;
+    width: 100%;
+    background-color: lightgoldenrodyellow;
+}
+
+main{
+    margin-top: 3em;
+}
