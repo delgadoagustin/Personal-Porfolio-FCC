@@ -2,16 +2,43 @@
     padding: 0;
     margin: 0;
 }
+#projects a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+}
 
 #projects{
+    background-color: gray;
+    text-decoration: none;
+    color: white;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
-#projects div{
+.project{
     background-color: lightgray;
     margin: 0.5em;
     height: 100px;
+    display: block;
+}
+
+#projects h1{
+    grid-column: 1/4;
+    color: white;
+    display: block;
+    padding: 0.5em;
+}
+
+.project-title{
+    padding: 0.25em;
+}
+
+.link{
+    text-align: center;
+    margin: 0;
 }
 
 #navbar{
