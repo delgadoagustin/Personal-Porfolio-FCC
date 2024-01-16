@@ -2,15 +2,25 @@
     padding: 0;
     margin: 0;
 }
+
+#welcome-section{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 6em;
+}
+
 #projects a{
     display: inline-block;
     text-decoration: none;
     color: white;
     text-align: center;
     padding: 0.5em;
+    
 }
 
 #projects{
+    padding: 2em;
     background-color: gray;
     text-decoration: none;
     color: white;
@@ -19,10 +29,11 @@
 }
 
 .project{
-    background-color: lightgray;
+    background-color: rgba(211, 211, 211, 0.562);
     margin: 0.5em;
     height: 100px;
     display: block;
+    position: relative;
 }
 
 #projects h1{
@@ -37,17 +48,27 @@
 }
 
 .link{
+    width: 100%;
     text-align: center;
     margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 #navbar{
-    display: block;
+    text-align: right;
+    /*display: block;*/
     position: fixed;
     top: 0px;
     height: 3em;
     width: 100%;
     background-color: lightgoldenrodyellow;
+}
+
+#navbar a{
+    display: inline-block;
+    padding: 1em;
 }
 
 main{
